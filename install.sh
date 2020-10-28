@@ -115,8 +115,8 @@ user=`whoami`
 if [ "$allow_sudo" == "0" ]; then
     if [ "$user" == "root" ]; then
         echo "WARNING: running as root, if you want to install DeepSpeed with sudo please use -s/--pip_sudo instead"
-        usage
-        exit 1
+        #usage
+        #exit 1
     fi
 fi
 
