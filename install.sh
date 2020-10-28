@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DS_BUILD_CPU_ADAM=1
+
 set -e
 err_report() {
     echo "Error on line $1"
